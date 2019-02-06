@@ -27,7 +27,7 @@ public class Application {
 		
 		LibroDao lDao = new LibroDao();
         AutoreDao aDao = new AutoreDao();
-        
+        //ciao
         
        l= lDao.findById(3L, false);
 		} catch (Exception e) {
